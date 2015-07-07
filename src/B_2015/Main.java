@@ -28,10 +28,6 @@ public class Main {
         } catch (FileNotFoundException ex) {
             Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
         }
-        
-        StringBuffer sbc = new StringBuffer("0000");
-        System.out.println(sbc.equals("0000"));
-        System.out.println(sbc.toString().equals("0000"));
 
         int n = scan.nextInt();
         length = n;
